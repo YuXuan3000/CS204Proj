@@ -328,7 +328,7 @@ protected:
 	 * uint8_t   ID of the callback.
 	 * @param p The packet that was just received.
 	 */
-	virtual NetworkRecvStatus Receiv?_CLIENT_COMMAND(Packet &p);
+	virtual NetworkRecvStatus Receive_CLIENT_COMMAND(Packet &p);
 
 	/**
 	 * Sends a DoCommand to the client:
